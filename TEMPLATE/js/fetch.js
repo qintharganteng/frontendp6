@@ -3,7 +3,7 @@ import { get } from "https://bukulapak.github.io/api/process.js";
 import { addInner } from "https://bukulapak.github.io/element/process.js";
 import { getRandomColor, getRandomColorName } from "https://bukulapak.github.io/image/process.js";
 import { isiTabel } from "./table.js";
-let urlAPI = "hhttps://ws-qinthar2024-48d72259230b.herokuapp.com/presensi";
+let urlAPI = "https://ws-qinthar2024-48d72259230b.herokuapp.com/presensi";
 get(urlAPI, isiTablePresensi);
 function isiTablePresensi(results) {
     results.forEach(isiRow);
